@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- Meta -->
   <meta charset="utf-8">
   <title>Batu Sipka</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile_stylesheet.css" />
+
+  <link rel="stylesheet" href="css/stylesheet_main.css">
+
+  <script src="https://use.fontawesome.com/3c4740cd36.js"></script>
 </head>
-<body class= "parallax">
-  <nav>
-    <div class="navB">
-      <p id = "about"  onmouseover= "lightUpAbout()" onmouseout = "lightDownAbout()"><a href"#aboutScroll">About</a></p>
-      <p id = "education"  onmouseover= "lightUpEducation()" onmouseout = "lightDownEducation()"><a href"#">Education</a></p>
-      <p id = "skills"  onmouseover= "lightUpSkills()" onmouseout = "lightDownSkills()"><a href"#">Skills</a></p>
-      <p id = "projects" onmouseover= "lightUpProjects()" onmouseout = "lightDownProjects()"><a href"#">Projects</a></p>
-      <p id = "awards"  onmouseover = "lightUpAwards()" onmouseout ="lightDownAwards()"><a href="#">Awards</a><p>
-    </div>
-  </nav>
-  <div>
-    <p id ="main" style="color:white">BatuSipka</p>
-    <p id ="mainAlt">Innovative.Passionate.Persistent.</p>
-  </div>
-<div id ="aboutScroll">
-    <p> Hi this is about</p>
-    <p>Hello this is second heading</p>
-  </div>
+<body>
+
+  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/script.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+<div class"main-wrapper">
+  <div class = "row">
+      <div class="col s12 center-align">
+              <h1><a href="#"><div class = "link" style = "font-weight:bold;">Batu Sipka</div></a></h1>
+      </div>
+</div>
+      <div class = "row">
+        <div class="col s6 center-align">
+          <h4 ><a href="aboutme.html"><div class = "link">About Me</div></a></h4>
+        </div>
+        <div class="col s6 center-align">
+          <h4><a href="projects.html"><div class = "link">Projects</div></a></h4>
+        </div>
+      </div>
+      <div class = "row">
+
+        <div class="col s4 push-s4">
+          <img src="images/picture_1_small.jpg" class="circle responsive-img"> <!-- notice the "circle" class -->
+        </div>
+      </div>
+</div>
+<div class = "footer_wrapper">
+      <footer class="page-footer teal lighten-1">
+         <div class="container">
+           <div class="row">
+
+             <div class="col s6 center">
+               <a href="https://github.com/ybsipka"><div class="link"><i class="fa fa-github fa-2x" aria-hidden="true"></i></div></a>
+             </div>
+
+             <div class="col s6 center">
+               <a href="https://www.linkedin.com/in/batu-sipka-b962307b/"><div class = "link"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></div></a>
+             </div>
+           </div>
+         </div>
+         <div class="footer-copyright">
+            <div class="container left-align">
+            © Yesugey Batu Sipka
+            <a class="grey-text text-lighten-4 right" href="http://batusipka.com">batusipka.com</a>
+            </div>
+          </div>
+       </footer>
+</div>
+
+
+
 </body>
 </html>

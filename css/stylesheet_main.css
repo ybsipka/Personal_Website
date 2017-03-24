@@ -1,0 +1,18 @@
+
+.link{
+  color: black;
+}
+
+
+.footer_wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: inherit;
+  text-align: center;
+}
+
+.main-wrapper{
+  padding-top: 2cm !important;
+}

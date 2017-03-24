@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <title>Batu Sipka</title>
+
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+  <script src="https://use.fontawesome.com/3c4740cd36.js"></script>
+</head>
+<body>
+  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/script.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+      <div class="row">
+          <div class="col s3">
+            <ul class="fixed table-of-contents">
+              <li><a href="#"><h1>About Me</a></h1></li>
+              <li><a href="#education">Education</a></li>
+              <li><div class="divider"></div></li>
+              <li><a href="#courses" onclick="Materialize.showStaggeredList('#courses-t')">Relevant Courses</a></li>
+              <li><div class="divider"></div></li>
+              <li><a href="#skills" onclick="Materialize.showStaggeredList('#skills-t')">Skills</a></li>
+              <li><div class="divider"></div></li>
+              <li><a href="#objective" onclick="Materialize.showStaggeredList('#objective-t')">Objective</a></li>
+              <li><div class="divider"></div></li>
+
+
+              <li style="padding:40px;"><a href = "index.html">Go Back</a></li>
+            </ul>
+        </div>
+          <div class="col s9">
+            <div class = "container">
+              <h5 style = "padding:10px;">
+                Hello!
+              </h5>
+              <h3>
+              My name is Batu Sipka.
+            </h3>
+            </div>
+
+            <div id = "education" class="section scrollspy container">
+              <div class="card green darken-1">
+                <div class="card-content white-text">
+                  <h5>I am a senior at <b>Worcester Polytechnic Institute</b> graduating in <b>May 2017</b>. </h5>
+                  <h5>I am double majoring in <b>Robotics Engineering</b> and <b>Electrical and Computer Engineering</b>.</h5>
+                </div>
+              </div>
+          </div></li>
+
+
+        <ul id="courses-t">
+        <li style ="opacity:0;">
+          <div id="courses" class="section scrollspy container">
+            <div class="card green darken-1">
+              <div class="card-content white-text">
+                <h5>I have taken the following <b>courses</b>; </h5>
+                <h5><b>Robotics:</b></h5>
+                <h5>Unified Robotics Series: Actuation / Sensing / Manipulation / Navigation </h5>
+                <h5><b>Electrical and Computer Engineering:</b></h5>
+                <h5> Embedded Systems / Sensors, Circuits and Systems / Real Time Operating Systems / FPGA Design / Continuous and Discrete Time Signal Analysis </h5>
+                <h5><b>Computer Science:</b></h5>
+                <h5> Object Oriented Program Design / Systems Programming / Software Engineering </h5>
+                <h5><b>Miscellaneous:</b></h5>
+                <h5> Controls Engineering </h5>
+              </div>
+            </div>
+        </div>
+      </li>
+    </ul>
+
+
+    <ul id="skills-t">
+    <li style ="opacity:0;">
+        <div id="skills" class="section scrollspy container">
+          <div class="card green darken-3">
+            <div class="card-content white-text">
+              <h5><b>Software:</b></h5>
+              <h5> C++, C, Java, C#, Python, R, JavaScript, HTML, CSS</h5>
+              <h5><b>Languages:</b></h5>
+              <h5> English, Turkish, French, Chinese</h5>
+              <h5><b>Other / Tools:</b></h5>
+              <h5> IoT, Windows, Linux, VMware, Git, Atom, Bash, CAD, Prototyping, MATLAB, Unity</h5>
+             </div>
+          </div>
+      </div>
+
+    </li>
+    </ul>
+
+    <ul id="objective-t">
+    <li style ="opacity:0;">
+            <div id="objective" class="section scrollspy container">
+              <div class="card green darken-2">
+                <div class="card-content white-text">
+                  <h5>I am interested in obtaining a <b>full time position</b> in robotics or electrical industry doing <b>hardware and software development</b>.</h5>
+                  </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      </div>
+
+        <footer class="page-footer teal lighten-1">
+           <div class="container">
+             <div class="row">
+
+               <div class="col s6 center">
+                 <a href="https://github.com/ybsipka"><div class="link"><i class="fa fa-github fa-2x" aria-hidden="true"></i></div></a>
+               </div>
+
+               <div class="col s6 center">
+                 <a href="https://www.linkedin.com/in/batu-sipka-b962307b/"><div class = "link"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></div></a>
+               </div>
+             </div>
+           </div>
+           <div class="footer-copyright">
+              <div class="container left-align">
+              © Yesugey Batu Sipka
+              <a class="grey-text text-lighten-4 right" href="http://batusipka.com">batusipka.com</a>
+              </div>
+            </div>
+         </footer>
+
+         <script>
+           Materialize.toast("Click on the side navigation to reveal sections!", 2500);
+          </script>
+
+</body>
+</html>
