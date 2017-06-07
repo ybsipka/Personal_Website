@@ -1,6 +1,8 @@
 .body{
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif;
 }
+
+
 
 
 .about-wrapper{
@@ -9,4 +11,35 @@ font-family: 'Ubuntu', sans-serif;
 }
 .link{
   color: black;
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg) !important;
+    -moz-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    transform: rotate(180deg) !important;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg) !important;
+    -moz-transform: rotate(90deg) !important;
+    -o-transform: rotate(90deg) !important;
+    -ms-transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important;
+}
+
+.tabs .tab a.active {
+  color: #4d4d4d;
+}
+
+.tabs .tab a {
+  color: grey;
+}
+
+.tabs .tab a:hover {
+  color: #4d4d4d;
+}
+.tabs .indicator{
+  background-color: inherit;
 }

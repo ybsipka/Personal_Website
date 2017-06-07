@@ -1,5 +1,7 @@
 
 $(document).ready(function(){
+  //var object = document.getElementbyId('pic1');
+  //object.style.transform="rotate(7deg)";
   /*var options = [
        {selector: '#courses-t', offset: 600, callback: function(el) {
          Materialize.toast("courses should pop up!", 1500 );
@@ -30,5 +32,7 @@ $(document).ready(function(){
                 scrollOffset: 0
               }
               );
-          
+          $('.slider').slider({height: 400});
+          //$('ul.tabs').tabs({swipeable: true}); //causes problems with the images
+          //$('ul.tabs').tabs({responsiveThreshold: 200});
 });
